@@ -2,7 +2,7 @@
 * @Author: Stefan Wirth
 * @Date:   2016-02-13 22:41:32
 * @Last Modified by:   Stefan Wirth
-* @Last Modified time: 2016-02-14 00:13:27
+* @Last Modified time: 2016-02-14 00:30:24
 */
 
 'use strict';
@@ -22,7 +22,6 @@ function cors(req, res, next) {
 }
 
 app.get('/khaledIpsum', function(req, res) {
-    console.log(req.query);
     var numberOfParagraphs = req.query.paragraphs || DEFAULT_NUMBER_OF_PARAGRAPHS;
     var khaledIpsum = khaled.generate(numberOfParagraphs);
 
