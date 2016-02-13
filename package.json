@@ -1,0 +1,25 @@
+{
+  "name": "khaled",
+  "version": "1.0.0",
+  "description": "egg whites",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nafetswirth/eggWhites.git"
+  },
+  "keywords": [
+    "khaled"
+  ],
+  "author": "@nafetsWirth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nafetswirth/eggWhites/issues"
+  },
+  "homepage": "https://github.com/nafetswirth/eggWhites#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
